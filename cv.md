@@ -1,10 +1,10 @@
 # Oleksandr Patsura
 
 ## Contact:
-🗺 Ukraine, Zaporozhye 69118
-📞 Phone: +38 (066) 926 26 52
-📧 Email: alexandrpatsura@gmail.com
-🖥 Skype: alexandrpatsura
+🗺 Ukraine, Zaporozhye 69118 <br/>
+📞 Phone: +38 (066) 926 26 52 <br/>
+📧 Email: alexandrpatsura@gmail.com <br/>
+🖥 Skype: alexandrpatsura <br/>
 💬 Telegram: @alexandrpatsura
 
 ## Education:
