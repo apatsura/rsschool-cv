@@ -5,135 +5,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CV: Alexandr Patsura</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="hidden">
-    <h2>Рекомендации EPAM HR department</h2>
-    <ol>
-      <li>Имя и фамилия</li>
-      <li>Контакты для связи</li>
-      <li>Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте
-        работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)</li>
-      <li>Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки,
-        которыми вы владеете)</li>
-      <li>Примеры кода</li>
-      <li>Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на
-        исходный код.</li>
-      <li>Образование (включая пройденные курсы и тренинги)</li>
-      <li>Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)</li>
-    </ol>
-
-    <h2>Рекомендации к составлению CV:</h2>
-    <ul>
-      <li>оформление CV на ваше усмотрение. Старайтесь выполнить работу максимально качественно. При выборе дизайна CV
-        можно руководствоваться примерами, приведёнными в материалах к заданию</li>
-      <li>CV составляется на английском языке. при составлении CV рекомендуется указывать реальные данные</li>
-      <li>в CV добавьте своё фото или аватарку. Фото предпочтительнее</li>
-      <li>в CV укажите актуальные контакты для связи, в т.ч никнейм на дискорд-сервере rs school</li>
-      <li>в качестве примера кода приведите решение задачи с сайта Codewars. Если решённых задач пока нет, подойдёт
-        задача, которую нужно решить при регистрации на Codewars</li>
-      <li>код добавляется при помощи символов и тегов, а не картинкой</li>
-      <li>для выполненных проектов добавьте название проекта, ссылку на код проекта на гитхабе или ссылку на страницу
-        проекта. Если выполненных проектов пока нет, в качестве первого проекта укажите само CV</li>
-    </ul>
-  </div>
-
   <div class="wrapper">
     <header class="header container">
-      <nav class="nav-menu">
+      <nav class="nav__menu">
         <ul class="menu">
-          <li class="menu-item">
-            <a href="#contact">Contact</a>
+          <li class="menu__item">
+            <a href="#contact" class="menu__link">Contact</a>
           </li>
-          <li class="menu-item">
-            <a href="#education">Education</a>
+          <li class="menu__item">
+            <a href="#education" class="menu__link">Education</a>
           </li>
-          <li class="menu-item">
-            <a href="#job">Job Experience</a>
+          <li class="menu__item">
+            <a href="#experience" class="menu__link">Job Experience</a>
           </li>
-          <li class="menu-item">
-            <a href="#software">Software Skills</a>
+          <li class="menu__item">
+            <a href="#skills" class="menu__link">Software Skills</a>
           </li>
-          <li class="menu-item">
-            <a href="#code">Code example</a>
+          <li class="menu__item">
+            <a href="#code" class="menu__link">Code example</a>
           </li>
-          <li class="menu-item">
-            <a href="#language">Language</a>
+          <li class="menu__item">
+            <a href="#language" class="menu__link">Language</a>
           </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main container">
-      <img src="assets/avatar" alt="avatar">
-      <h1>Oleksandr Patsura</h1>
-
-      <h2 id="contact">Contact:</h2>
-      <ul>
-        <li>🗺 Ukraine, Zaporozhye 69118</li>
-        <li>📞 Phone: +38 (066) 926 26 52</li>
-        <li>📧 Email: alexandrpatsura@gmail.com</li>
-        <li>🖥 Skype: alexandrpatsura</li>
-        <li>💬 Telegram: @alexandrpatsura</li>
-      </ul>
-
-      <h2 id="education">Education:</h2>
-      <ul>
-        <li>09.2017-10.2017 — Took an advanced course in web development at the online school "Loftschool"</li>
-        <li>09.2015-04.2016 — Internship as a PHP developer in "BestWebSoft"</li>
-      </ul>
-
-      <h2 id="job">Job Experience:</h2>
-      <ul>
-        <li>10.2016-10.2022 — Modern Education Solution Ltd. _("SkyEng")_</li>
-      </ul>
-
-      <h2 id="software">Software Skills:</h2>
-      <ul>
-        <li>Adobe Photoshop ⭐⭐⭐</li>
-        <li>Figma ⭐⭐⭐⭐</li>
-        <li>Sublime Text 4 ⭐⭐⭐⭐</li>
-        <li>VS Code ⭐⭐⭐⭐</li>
-        <li>HTML5/CSS3 ⭐⭐⭐⭐</li>
-        <li>JS Basics ⭐⭐⭐</li>
-        <li>SASS ⭐⭐⭐</li>
-        <li>Git ⭐⭐⭐</li>
-        <li>Gulp ⭐⭐⭐</li>
-        <li>WordPress ⭐⭐</li>
-      </ul>
-
-      <h2 id="code">Code example:</h2>
-      <pre>
-        function sum(a, b) {
-          return a + b;
-        }
-
-        let result = sum(1, 2);
-        alert(result);
-      </pre>
-
-      <h2 id="language">Language:</h2>
-      <ul>
-        <li>Russian — Native</li>
-        <li>Ukrainian — Native</li>
-        <li>English — A2</li>
-        <li>Deutsch — A2</li>
-      </ul>
-    </main>
-
-    <footer class="footer container">
-      <span><a href="https://github.com/apatsura" class="github nav-link">apatsura</a></span>
-      <span>© 2023</span>
-      <span>
-        <a href="https://rs.school/js/" class="rss">
-          <img src="assets/logo-rs" alt="rsschool-icon">
-        </a>
-      </span>
-    </footer>
+    
   </div>
-
 </body>
-
 </html>
