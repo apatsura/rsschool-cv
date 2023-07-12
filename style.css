@@ -264,6 +264,69 @@ img {
   font-weight: bold;
 }
 
+.language__list {
+  padding-left: 25px;
+  line-height: 25px;
+}
+
+.experience__list {
+  padding-left: 25px;
+}
+
+.experience__item {
+  display: flex;
+}
+
+.experience__item div:first-child {
+  width: 180px;
+}
+
+.experience__item p {
+  line-height: 28px;
+}
+
+.experience__item div p:first-child {
+  font-weight: bold;
+}
+
+.skills__block {
+  display: flex;
+}
+
+.skills__list {
+  padding-left: 25px;
+  flex: 1 0 300px;
+}
+
+.skills__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rating__circle-empty {
+  display: inline-block;
+  border: 2px solid #ff0;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+
+.rating__circle-full {
+  display: inline-block;
+  background-color: #ff0;
+  border-radius: 50%;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+}
+
+.code__example {
+  padding: 20px 25px 10px;
+  background-color: #ccc;
+  border-radius: 5px;
+}
+
 /* footer */
 .footer {
   display: flex;
