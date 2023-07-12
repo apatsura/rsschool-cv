@@ -91,3 +91,25 @@ img {
 .menu__link:hover {
   background-color: #ff0;
 }
+
+/* footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+  align-items: center;
+  /* background-color: #ccc; */
+}
+
+.github__link {
+  color: #000;
+}
+
+.github__icon {
+  margin-right: 0;
+  vertical-align: middle;
+}
+
+.rss__icon {
+  width: 100px;
+}
