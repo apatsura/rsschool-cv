@@ -24,74 +24,83 @@
             <a href="#education" class="menu__link">Education</a>
           </li>
           <li class="menu__item">
-            <a href="#experience" class="menu__link">Job Experience</a>
+            <a href="#experience" class="menu__link">Experience</a>
           </li>
           <li class="menu__item">
-            <a href="#skills" class="menu__link">Software Skills</a>
+            <a href="#skills" class="menu__link">Skills</a>
           </li>
           <li class="menu__item">
-            <a href="#code" class="menu__link">Code example</a>
+            <a href="#code" class="menu__link">Code</a>
           </li>
           <li class="menu__item">
             <a href="#language" class="menu__link">Language</a>
           </li>
         </ul>
+
+<!-- <div class="menu-wrap">
+  <input type="checkbox" class="toggler">
+  <div class="hamburger">
+    <div></div>
+  </div>
+  <div class="menu__mobile">
+    <div>
+      <div>
+        <ul>
+          <li><a href="#contact" class="">Contact</a></li>
+          <li><a href="#education" class="">Education</a></li>
+          <li><a href="#experience" class="">Experience</a></li>
+          <li><a href="#skills" class="">Skills</a></li>
+          <li><a href="#code" class="">Code example</a></li>
+          <li><a href="#language" class="">Language</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div> -->
+
       </nav>
     </header>
+
     <main class="main container">
-      <div class="main__left">
-        <div class="image__wrapper">
-          <img src="./images/avatar.jpg" alt="avatar" class="avatar">
+      <div class="about">
+        <div class="about__avatar">
+          <picture class="avatar">
+            <source srcset="./images/avatar2.jpg">
+            <img src="./images/avatar.jpg" alt="avatar" class="avatar__image">
+          </picture>
         </div>
+
+        <div class="about__user">
+          <h1 class="user__name">Alexandr <br> Patsura</h1>
+          <p class="user__desc">Junior Frontend developer</p>
+
+          <p class="about__text">Hi! I am 38 years old and I like to study and learn something new. I love cycling and listening to music. I lead active and healhy lifestyle. I like to work and see the results of my work.</p>
+        </div>
+      </div>
+
+      <div class="section__wrapper">
         <section class="section contact">
           <h2 id="contact" class="section__title">Contact</h2>
           <ul class="contact__list">
             <li class="contact__item">
               <a href="https://goo.gl/maps/6YW11MnCN6Ni6JfD8" class="contact__link">
-                <span class="contact__icon"><img src="./images/location.png" alt="location"></span> Ukraine, Zaporozhye
-                69118</a>
+                <span class="contact__icon"><img src="./images/location.png" alt="location"></span> Ukraine, Zaporozhye 69118</a>
             </li>
             <li class="contact__item">
               <a href="tel:+380669262652" class="contact__link">
-                <span class="contact__icon"><img src="./images/phone.png" alt="phone"></span> Phone: +38 (066) 926 26
-                52</a>
+                <span class="contact__icon"><img src="./images/phone.png" alt="phone"></span> +38 (066) 926 26 52</a>
             </li>
             <li class="contact__item">
               <a href="mailto:alexandrpatsura@gmail.com" class="contact__link">
-                <span class="contact__icon"><img src="./images/email.png" alt="email"></span> Email:
-                alexandrpatsura@gmail.com</a>
+                <span class="contact__icon"><img src="./images/email.png" alt="email"></span> alexandrpatsura@gmail.com</a>
             </li>
             <li class="contact__item">
               <a href="https://discordapp.com/users/xander9672" class="contact__link">
-                <span class="contact__icon"><img src="./images/discord.png" alt="discord"></span> Discord: Alexandr
-                Patsura</a>
+                <span class="contact__icon"><img src="./images/discord.png" alt="discord"></span> Alexandr Patsura</a>
             </li>
           </ul>
         </section>
-        <section class="section education">
-          <h2 id="education" class="section__title">Education</h2>
-          <ul class="education__list">
-            <li class="education__item">
-              <p class="education__speciality">Advanced web development</p>
-              <p>Loftschool | Russian</p>
-              <p>09.2017 — 10.2017</p>
-            </li>
-            <li class="education__item">
-              <p class="education__speciality">Internship as a PHP developer</p>
-              <p>BestWebSoft | Ukraine</p>
-              <p>09.2015 — 04.2016</p>
-            </li>
-          </ul>
-        </section>
-      </div>
-      <div class="main__rigth">
-        <div class="info__user">
-          <h1 class="user__name">Oleksandr <br> Patsura</h1>
-          <p class="user__desc">Junior Frontend developer</p>
-        </div>
-        <div class="about">
-          <p>Hi! I am 38 years old and I like to study and learn something new. I love cycling and listening to music. I lead active and healhy lifestyle. I like to work and see the results of my work.</p>
-        </div>
+
         <section class="section experience">
           <h2 id="experience" class="section__title">Experience</h2>
           <ul class="experience__list">
@@ -107,7 +116,23 @@
             </li>
           </ul>
         </section>
-        
+
+        <section class="section education">
+          <h2 id="education" class="section__title">Education</h2>
+          <ul class="education__list">
+            <li class="education__item">
+              <p class="education__speciality">Advanced web development</p>
+              <p>Loftschool | Russian</p>
+              <p>09.2017 — 10.2017</p>
+            </li>
+            <li class="education__item">
+              <p class="education__speciality">Internship as a PHP developer</p>
+              <p>BestWebSoft | Ukraine</p>
+              <p>09.2015 — 04.2016</p>
+            </li>
+          </ul>
+        </section>
+
         <section class="section skills">
           <h2 id="skills" class="section__title">Skills</h2>
           <div class="skills__block">
@@ -148,8 +173,6 @@
                   <span class="rating__circle-empty"></span>
                 </span>
               </li>
-            </ul>
-            <ul class="skills__list">
               <li class="skills__item">HTML5/CSS3
                 <span>
                   <span class="rating__circle-full"></span>
@@ -189,7 +212,25 @@
             </ul>
           </div>
         </section>
-        
+
+        <section class="section language">
+          <h2 id="language" class="section__title">Language</h2>
+          <ul class="language__list">
+            <li class="language__item">
+              <span class="contact__icon"><img src="./images/russian.png" alt="Russian flag"></span> Russian — Native
+            </li>
+            <li class="language__item">
+              <span class="contact__icon"><img src="./images/ukraine.png" alt="Ukrainian flag"></span> Ukrainian — Native
+            </li>
+            <li class="language__item">
+              <span class="contact__icon"><img src="./images/britain.png" alt="English flag"></span> English — A2
+            </li>
+            <li class="language__item">
+              <span class="contact__icon"><img src="./images/germany.png" alt="Deutsch flag"></span> Deutsch — A2
+            </li>
+          </ul>
+        </section>
+
         <section class="section code">
           <h2 id="code" class="section__title">Code example</h2>
           <pre class="code__example">
@@ -199,32 +240,21 @@ function sum(a, b) {
 
 let result = sum(1, 2);
 alert(result);
-          </pre>
-        </section>
-        
-        <section class="section language">
-          <h2 id="language" class="section__title">Language</h2>
-          <ul class="language__list">
-            <li class="language__item">Russian — Native</li>
-            <li class="language__item">Ukrainian — Native</li>
-            <li class="language__item">English — A2</li>
-            <li class="language__item">Deutsch — A2</li>
-          </ul>
+                  </pre>
         </section>
       </div>
     </main>
+
     <footer class="footer container">
-      <div>
-        <a href="https://github.com/apatsura" class="github__link">
-          <span class="github__icon contact__icon">
-            <img src="./images/github.png" alt="github">
-          </span> apatsura
+      <div class="footer__github">
+        <a href="https://github.com/apatsura">
+          <img src="./images/github.svg" alt="github-icon" class="icon__github">
         </a>
       </div>
-      <div>© 2023</div>
-      <div class="rss__icon">
-        <a href="https://rs.school/js/" class="rss">
-          <img src="./images/rs_school_js.svg" alt="rsschool-icon">
+      <div class="footer__copyright">© 2023</div>
+      <div class="footer__rss">
+        <a href="https://rs.school/js/">
+          <img src="./images/rs_school_js.svg" alt="rsschool-icon" class="icon__rss">
         </a>
       </div>
     </footer>
